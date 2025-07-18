@@ -1,0 +1,13 @@
+# Ignorer les fichiers node_modules
+node_modules/
+
+# Ignorer toutes les données persistantes, sauf celles spécifiées explicitement
+docker-compose/node-red-data/*
+!docker-compose/node-red-data/flows.json
+!docker-compose/node-red-data/flows_cred.json
+
+docker-compose/grafana-data/*
+!docker-compose/grafana-data/specific-needed-files.json  # Exemple: ajustez selon vos besoins
+
+docker-compose/postgres-data/*
+!docker-compose/postgres-data/specific-needed-data.sql  # Exemple: ajustez selon vos besoins

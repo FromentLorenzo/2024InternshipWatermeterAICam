@@ -1,0 +1,54 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-mongodb
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-mongodb"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_56_07_173Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_56_07_173Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [ '/data/node_modules/bson' ]
+14 silly reify mark retired [ '/data/node_modules/buffer-shims' ]
+15 silly reify mark retired [ '/data/node_modules/core-util-is' ]
+16 silly reify mark retired [ '/data/node_modules/es6-promise' ]
+17 silly reify mark retired [ '/data/node_modules/isarray' ]
+18 silly reify mark retired [ '/data/node_modules/mongodb' ]
+19 silly reify mark retired [ '/data/node_modules/mongodb-core' ]
+20 silly reify mark retired [ '/data/node_modules/node-red-mongodb' ]
+21 silly reify mark retired [ '/data/node_modules/process-nextick-args' ]
+22 silly reify mark retired [ '/data/node_modules/require_optional' ]
+23 silly reify mark retired [ '/data/node_modules/resolve-from' ]
+24 silly reify moves {
+24 silly reify   '/data/node_modules/bson': '/data/node_modules/.bson-QKBQnaYm',
+24 silly reify   '/data/node_modules/buffer-shims': '/data/node_modules/.buffer-shims-dYZamlxu',
+24 silly reify   '/data/node_modules/core-util-is': '/data/node_modules/.core-util-is-9IULv6p7',
+24 silly reify   '/data/node_modules/es6-promise': '/data/node_modules/.es6-promise-9FpoAX3J',
+24 silly reify   '/data/node_modules/isarray': '/data/node_modules/.isarray-Qb0SFsNw',
+24 silly reify   '/data/node_modules/mongodb': '/data/node_modules/.mongodb-g4BNGgVf',
+24 silly reify   '/data/node_modules/mongodb-core': '/data/node_modules/.mongodb-core-ez1cNne1',
+24 silly reify   '/data/node_modules/node-red-mongodb': '/data/node_modules/.node-red-mongodb-N2bOqd8Q',
+24 silly reify   '/data/node_modules/process-nextick-args': '/data/node_modules/.process-nextick-args-nOZd1AjK',
+24 silly reify   '/data/node_modules/require_optional': '/data/node_modules/.require_optional-IbdpVApg',
+24 silly reify   '/data/node_modules/resolve-from': '/data/node_modules/.resolve-from-TEtWVMMI'
+24 silly reify }
+25 silly REMOVE node_modules/resolve-from
+26 silly REMOVE node_modules/require_optional
+27 silly REMOVE node_modules/require_optional/node_modules/semver
+28 silly REMOVE node_modules/process-nextick-args
+29 silly REMOVE node_modules/node-red-mongodb
+30 silly REMOVE node_modules/mongodb-core
+31 silly REMOVE node_modules/mongodb
+32 silly REMOVE node_modules/mongodb/node_modules/string_decoder
+33 silly REMOVE node_modules/mongodb/node_modules/safe-buffer
+34 silly REMOVE node_modules/mongodb/node_modules/readable-stream
+35 silly REMOVE node_modules/isarray
+36 silly REMOVE node_modules/es6-promise
+37 silly REMOVE node_modules/core-util-is
+38 silly REMOVE node_modules/buffer-shims
+39 silly REMOVE node_modules/bson
+40 verbose exit 0
+41 info ok

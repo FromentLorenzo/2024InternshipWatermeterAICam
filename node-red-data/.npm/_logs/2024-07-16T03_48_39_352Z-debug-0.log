@@ -1,0 +1,142 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm install postgrestor@0.0.2
+8 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--omit" "dev" "--engine-strict" "postgrestor@0.0.2"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T03_48_39_352Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T03_48_39_352Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest postgrestor@0.0.2
+14 http fetch GET 200 https://registry.npmjs.org/postgrestor 1111ms (cache miss)
+15 silly placeDep ROOT postgrestor@0.0.2 OK for: node-red-project@0.0.1 want: 0.0.2
+16 silly fetch manifest co@^4.6.0
+17 silly fetch manifest mustache@^2.3.0
+18 silly fetch manifest pg@^6.1.5
+19 http fetch GET 200 https://registry.npmjs.org/mustache 130ms (cache miss)
+20 http fetch GET 200 https://registry.npmjs.org/co 278ms (cache miss)
+21 http fetch GET 200 https://registry.npmjs.org/pg 279ms (cache miss)
+22 silly placeDep ROOT co@4.6.0 OK for: postgrestor@0.0.2 want: ^4.6.0
+23 silly placeDep ROOT mustache@2.3.2 OK for: postgrestor@0.0.2 want: ^2.3.0
+24 silly placeDep ROOT pg@6.4.2 OK for: postgrestor@0.0.2 want: ^6.1.5
+25 silly fetch manifest pgpass@1.*
+26 silly fetch manifest semver@4.3.2
+27 silly fetch manifest pg-pool@1.*
+28 silly fetch manifest pg-types@1.*
+29 silly fetch manifest buffer-writer@1.0.1
+30 silly fetch manifest packet-reader@0.3.1
+31 silly fetch manifest js-string-escape@1.0.1
+32 http fetch GET 200 https://registry.npmjs.org/pgpass 118ms (cache miss)
+33 silly fetch manifest pg-connection-string@0.1.3
+34 http fetch GET 200 https://registry.npmjs.org/pg-connection-string 107ms (cache miss)
+35 http fetch GET 200 https://registry.npmjs.org/semver 304ms (cache revalidated)
+36 http fetch GET 200 https://registry.npmjs.org/buffer-writer 512ms (cache miss)
+37 http fetch GET 200 https://registry.npmjs.org/pg-types 740ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/pg-pool 777ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/js-string-escape 931ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/packet-reader 983ms (cache miss)
+41 silly placeDep ROOT buffer-writer@1.0.1 OK for: pg@6.4.2 want: 1.0.1
+42 silly placeDep ROOT js-string-escape@1.0.1 OK for: pg@6.4.2 want: 1.0.1
+43 silly placeDep ROOT packet-reader@0.3.1 OK for: pg@6.4.2 want: 0.3.1
+44 silly placeDep ROOT pg-connection-string@0.1.3 OK for: pg@6.4.2 want: 0.1.3
+45 silly placeDep ROOT pg-pool@1.8.0 OK for: pg@6.4.2 want: 1.*
+46 silly placeDep ROOT pg-types@1.13.0 OK for: pg@6.4.2 want: 1.*
+47 silly placeDep ROOT pgpass@1.0.5 OK for: pg@6.4.2 want: 1.*
+48 silly placeDep node_modules/pg semver@4.3.2 OK for: pg@6.4.2 want: 4.3.2
+49 silly fetch manifest generic-pool@2.4.3
+50 silly fetch manifest object-assign@4.1.0
+51 silly fetch manifest pg-int8@1.0.1
+52 silly fetch manifest postgres-array@~1.0.0
+53 silly fetch manifest postgres-bytea@~1.0.0
+54 silly fetch manifest postgres-date@~1.0.0
+55 silly fetch manifest postgres-interval@^1.1.0
+56 http fetch GET 200 https://registry.npmjs.org/pg-int8 117ms (cache miss)
+57 silly fetch manifest split2@^4.1.0
+58 http fetch GET 200 https://registry.npmjs.org/postgres-date 119ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/postgres-array 123ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/split2 140ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/postgres-bytea 325ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/postgres-interval 331ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/object-assign 706ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/generic-pool 755ms (cache miss)
+65 silly placeDep ROOT generic-pool@2.4.3 OK for: pg-pool@1.8.0 want: 2.4.3
+66 silly placeDep ROOT object-assign@4.1.0 OK for: pg-pool@1.8.0 want: 4.1.0
+67 silly placeDep ROOT pg-int8@1.0.1 OK for: pg-types@1.13.0 want: 1.0.1
+68 silly placeDep ROOT postgres-array@1.0.3 OK for: pg-types@1.13.0 want: ~1.0.0
+69 silly placeDep ROOT postgres-bytea@1.0.0 OK for: pg-types@1.13.0 want: ~1.0.0
+70 silly placeDep ROOT postgres-date@1.0.7 OK for: pg-types@1.13.0 want: ~1.0.0
+71 silly placeDep ROOT postgres-interval@1.2.0 OK for: pg-types@1.13.0 want: ^1.1.0
+72 silly fetch manifest xtend@^4.0.0
+73 http fetch GET 200 https://registry.npmjs.org/xtend 108ms (cache miss)
+74 silly placeDep ROOT split2@4.2.0 OK for: pgpass@1.0.5 want: ^4.1.0
+75 silly placeDep ROOT xtend@4.0.2 OK for: postgres-interval@1.2.0 want: ^4.0.0
+76 silly reify moves {}
+77 silly tarball no local data for postgres-array@https://registry.npmjs.org/postgres-array/-/postgres-array-1.0.3.tgz. Extracting by manifest.
+78 silly tarball no local data for postgres-interval@https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz. Extracting by manifest.
+79 silly tarball no local data for postgres-bytea@https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz. Extracting by manifest.
+80 silly tarball no local data for postgres-date@https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz. Extracting by manifest.
+81 silly tarball no local data for object-assign@https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz. Extracting by manifest.
+82 silly tarball no local data for xtend@https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz. Extracting by manifest.
+83 silly tarball no local data for pgpass@https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz. Extracting by manifest.
+84 silly tarball no local data for split2@https://registry.npmjs.org/split2/-/split2-4.2.0.tgz. Extracting by manifest.
+85 silly tarball no local data for pg-int8@https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz. Extracting by manifest.
+86 silly tarball no local data for pg-types@https://registry.npmjs.org/pg-types/-/pg-types-1.13.0.tgz. Extracting by manifest.
+87 silly tarball no local data for generic-pool@https://registry.npmjs.org/generic-pool/-/generic-pool-2.4.3.tgz. Extracting by manifest.
+88 silly tarball no local data for pg-pool@https://registry.npmjs.org/pg-pool/-/pg-pool-1.8.0.tgz. Extracting by manifest.
+89 silly tarball no local data for pg-connection-string@https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-0.1.3.tgz. Extracting by manifest.
+90 silly tarball no local data for buffer-writer@https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.1.tgz. Extracting by manifest.
+91 silly tarball no local data for packet-reader@https://registry.npmjs.org/packet-reader/-/packet-reader-0.3.1.tgz. Extracting by manifest.
+92 silly tarball no local data for js-string-escape@https://registry.npmjs.org/js-string-escape/-/js-string-escape-1.0.1.tgz. Extracting by manifest.
+93 silly tarball no local data for co@https://registry.npmjs.org/co/-/co-4.6.0.tgz. Extracting by manifest.
+94 silly tarball no local data for mustache@https://registry.npmjs.org/mustache/-/mustache-2.3.2.tgz. Extracting by manifest.
+95 silly tarball no local data for pg@https://registry.npmjs.org/pg/-/pg-6.4.2.tgz. Extracting by manifest.
+96 silly tarball no local data for postgrestor@https://registry.npmjs.org/postgrestor/-/postgrestor-0.0.2.tgz. Extracting by manifest.
+97 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-4.3.2.tgz. Extracting by manifest.
+98 http fetch GET 200 https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.0.tgz 314ms (cache miss)
+99 http fetch GET 200 https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz 326ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz 348ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.0.tgz 357ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/postgres-array/-/postgres-array-1.0.3.tgz 364ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz 361ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/split2/-/split2-4.2.0.tgz 364ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/packet-reader/-/packet-reader-0.3.1.tgz 439ms (cache miss)
+106 http fetch GET 200 https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz 530ms (cache miss)
+107 http fetch GET 200 https://registry.npmjs.org/co/-/co-4.6.0.tgz 524ms (cache miss)
+108 http fetch GET 200 https://registry.npmjs.org/js-string-escape/-/js-string-escape-1.0.1.tgz 530ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz 557ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-0.1.3.tgz 558ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/pg/-/pg-6.4.2.tgz 636ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.1.tgz 646ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/pg-pool/-/pg-pool-1.8.0.tgz 653ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/pg-types/-/pg-types-1.13.0.tgz 656ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/mustache/-/mustache-2.3.2.tgz 658ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.4.3.tgz 684ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-4.3.2.tgz 723ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/postgrestor/-/postgrestor-0.0.2.tgz 921ms (cache miss)
+119 silly ADD node_modules/xtend
+120 silly ADD node_modules/split2
+121 silly ADD node_modules/postgres-interval
+122 silly ADD node_modules/postgres-date
+123 silly ADD node_modules/postgres-bytea
+124 silly ADD node_modules/postgres-array
+125 silly ADD node_modules/pg-int8
+126 silly ADD node_modules/object-assign
+127 silly ADD node_modules/generic-pool
+128 silly ADD node_modules/pgpass
+129 silly ADD node_modules/pg-types
+130 silly ADD node_modules/pg-pool
+131 silly ADD node_modules/pg-connection-string
+132 silly ADD node_modules/packet-reader
+133 silly ADD node_modules/js-string-escape
+134 silly ADD node_modules/buffer-writer
+135 silly ADD node_modules/pg
+136 silly ADD node_modules/pg/node_modules/semver
+137 silly ADD node_modules/mustache
+138 silly ADD node_modules/co
+139 silly ADD node_modules/postgrestor
+140 verbose exit 0
+141 info ok

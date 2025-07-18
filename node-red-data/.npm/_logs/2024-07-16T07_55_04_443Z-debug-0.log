@@ -1,0 +1,49 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove postgrestor
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "postgrestor"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_55_04_443Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_55_04_443Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [ '/data/node_modules/co' ]
+14 silly reify mark retired [ '/data/node_modules/generic-pool' ]
+15 silly reify mark retired [ '/data/node_modules/js-string-escape' ]
+16 silly reify mark retired [ '/data/node_modules/mustache', '/data/node_modules/.bin/mustache' ]
+17 silly reify mark retired [ '/data/node_modules/object-assign' ]
+18 silly reify mark retired [ '/data/node_modules/pg' ]
+19 silly reify mark retired [ '/data/node_modules/pg-int8' ]
+20 silly reify mark retired [ '/data/node_modules/pg-pool' ]
+21 silly reify mark retired [ '/data/node_modules/pg-types' ]
+22 silly reify mark retired [ '/data/node_modules/postgrestor' ]
+23 silly reify moves {
+23 silly reify   '/data/node_modules/co': '/data/node_modules/.co-XSXlAdDH',
+23 silly reify   '/data/node_modules/generic-pool': '/data/node_modules/.generic-pool-H6xFM402',
+23 silly reify   '/data/node_modules/js-string-escape': '/data/node_modules/.js-string-escape-RSfNlg0i',
+23 silly reify   '/data/node_modules/mustache': '/data/node_modules/.mustache-ROQ2oY93',
+23 silly reify   '/data/node_modules/.bin/mustache': '/data/node_modules/.bin/.mustache-TTkgdA98',
+23 silly reify   '/data/node_modules/object-assign': '/data/node_modules/.object-assign-NdxoQHnr',
+23 silly reify   '/data/node_modules/pg': '/data/node_modules/.pg-UAyuT6GF',
+23 silly reify   '/data/node_modules/pg-int8': '/data/node_modules/.pg-int8-gBUoX8CQ',
+23 silly reify   '/data/node_modules/pg-pool': '/data/node_modules/.pg-pool-qzBxIC0y',
+23 silly reify   '/data/node_modules/pg-types': '/data/node_modules/.pg-types-wZxxzuUP',
+23 silly reify   '/data/node_modules/postgrestor': '/data/node_modules/.postgrestor-z1Op8gcf'
+23 silly reify }
+24 silly REMOVE node_modules/postgrestor
+25 silly REMOVE node_modules/pg-types
+26 silly REMOVE node_modules/pg-pool
+27 silly REMOVE node_modules/pg-int8
+28 silly REMOVE node_modules/pg
+29 silly REMOVE node_modules/pg/node_modules/semver
+30 silly REMOVE node_modules/object-assign
+31 silly REMOVE node_modules/mustache
+32 silly REMOVE node_modules/js-string-escape
+33 silly REMOVE node_modules/generic-pool
+34 silly REMOVE node_modules/co
+35 verbose exit 0
+36 info ok

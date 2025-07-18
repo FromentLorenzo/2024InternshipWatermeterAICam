@@ -1,0 +1,318 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-node-sqlite
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-node-sqlite"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_56_11_223Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_56_11_223Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify mark retired [ '/data/node_modules/@gar/promisify' ]
+15 silly reify mark retired [ '/data/node_modules/@npmcli/fs' ]
+16 silly reify mark retired [ '/data/node_modules/@npmcli/move-file' ]
+17 silly reify mark retired [ '/data/node_modules/@tootallnate/once' ]
+18 silly reify mark retired [ '/data/node_modules/abbrev' ]
+19 silly reify mark retired [ '/data/node_modules/agent-base' ]
+20 silly reify mark retired [ '/data/node_modules/agentkeepalive' ]
+21 silly reify mark retired [ '/data/node_modules/aggregate-error' ]
+22 silly reify mark retired [ '/data/node_modules/ansi-regex' ]
+23 silly reify mark retired [ '/data/node_modules/aproba' ]
+24 silly reify mark retired [ '/data/node_modules/are-we-there-yet' ]
+25 silly reify mark retired [ '/data/node_modules/balanced-match' ]
+26 silly reify mark retired [ '/data/node_modules/base64-js' ]
+27 silly reify mark retired [ '/data/node_modules/bindings' ]
+28 silly reify mark retired [ '/data/node_modules/bl' ]
+29 silly reify mark retired [ '/data/node_modules/brace-expansion' ]
+30 silly reify mark retired [ '/data/node_modules/buffer' ]
+31 silly reify mark retired [ '/data/node_modules/cacache' ]
+32 silly reify mark retired [ '/data/node_modules/chownr' ]
+33 silly reify mark retired [ '/data/node_modules/clean-stack' ]
+34 silly reify mark retired [
+34 silly reify   '/data/node_modules/color-support',
+34 silly reify   '/data/node_modules/.bin/color-support'
+34 silly reify ]
+35 silly reify mark retired [ '/data/node_modules/concat-map' ]
+36 silly reify mark retired [ '/data/node_modules/console-control-strings' ]
+37 silly reify mark retired [ '/data/node_modules/debug' ]
+38 silly reify mark retired [ '/data/node_modules/decompress-response' ]
+39 silly reify mark retired [ '/data/node_modules/deep-extend' ]
+40 silly reify mark retired [ '/data/node_modules/delegates' ]
+41 silly reify mark retired [ '/data/node_modules/detect-libc' ]
+42 silly reify mark retired [ '/data/node_modules/emoji-regex' ]
+43 silly reify mark retired [ '/data/node_modules/encoding' ]
+44 silly reify mark retired [ '/data/node_modules/end-of-stream' ]
+45 silly reify mark retired [ '/data/node_modules/env-paths' ]
+46 silly reify mark retired [ '/data/node_modules/err-code' ]
+47 silly reify mark retired [ '/data/node_modules/expand-template' ]
+48 silly reify mark retired [ '/data/node_modules/file-uri-to-path' ]
+49 silly reify mark retired [ '/data/node_modules/fs-constants' ]
+50 silly reify mark retired [ '/data/node_modules/fs-minipass' ]
+51 silly reify mark retired [ '/data/node_modules/fs.realpath' ]
+52 silly reify mark retired [ '/data/node_modules/gauge' ]
+53 silly reify mark retired [ '/data/node_modules/github-from-package' ]
+54 silly reify mark retired [ '/data/node_modules/glob' ]
+55 silly reify mark retired [ '/data/node_modules/graceful-fs' ]
+56 silly reify mark retired [ '/data/node_modules/has-unicode' ]
+57 silly reify mark retired [ '/data/node_modules/http-cache-semantics' ]
+58 silly reify mark retired [ '/data/node_modules/http-proxy-agent' ]
+59 silly reify mark retired [ '/data/node_modules/https-proxy-agent' ]
+60 silly reify mark retired [ '/data/node_modules/humanize-ms' ]
+61 silly reify mark retired [ '/data/node_modules/iconv-lite' ]
+62 silly reify mark retired [ '/data/node_modules/ieee754' ]
+63 silly reify mark retired [ '/data/node_modules/imurmurhash' ]
+64 silly reify mark retired [ '/data/node_modules/indent-string' ]
+65 silly reify mark retired [ '/data/node_modules/infer-owner' ]
+66 silly reify mark retired [ '/data/node_modules/inflight' ]
+67 silly reify mark retired [ '/data/node_modules/inherits' ]
+68 silly reify mark retired [ '/data/node_modules/ini' ]
+69 silly reify mark retired [ '/data/node_modules/ip-address' ]
+70 silly reify mark retired [ '/data/node_modules/is-fullwidth-code-point' ]
+71 silly reify mark retired [ '/data/node_modules/is-lambda' ]
+72 silly reify mark retired [ '/data/node_modules/isexe' ]
+73 silly reify mark retired [ '/data/node_modules/jsbn' ]
+74 silly reify mark retired [ '/data/node_modules/lru-cache' ]
+75 silly reify mark retired [ '/data/node_modules/make-fetch-happen' ]
+76 silly reify mark retired [ '/data/node_modules/mimic-response' ]
+77 silly reify mark retired [ '/data/node_modules/minimatch' ]
+78 silly reify mark retired [ '/data/node_modules/minimist' ]
+79 silly reify mark retired [ '/data/node_modules/minipass' ]
+80 silly reify mark retired [ '/data/node_modules/minipass-collect' ]
+81 silly reify mark retired [ '/data/node_modules/minipass-fetch' ]
+82 silly reify mark retired [ '/data/node_modules/minipass-flush' ]
+83 silly reify mark retired [ '/data/node_modules/minipass-pipeline' ]
+84 silly reify mark retired [ '/data/node_modules/minipass-sized' ]
+85 silly reify mark retired [ '/data/node_modules/minizlib' ]
+86 silly reify mark retired [ '/data/node_modules/mkdirp', '/data/node_modules/.bin/mkdirp' ]
+87 silly reify mark retired [ '/data/node_modules/mkdirp-classic' ]
+88 silly reify mark retired [ '/data/node_modules/ms' ]
+89 silly reify mark retired [ '/data/node_modules/napi-build-utils' ]
+90 silly reify mark retired [ '/data/node_modules/negotiator' ]
+91 silly reify mark retired [ '/data/node_modules/node-abi' ]
+92 silly reify mark retired [ '/data/node_modules/node-addon-api' ]
+93 silly reify mark retired [ '/data/node_modules/node-gyp', '/data/node_modules/.bin/node-gyp' ]
+94 silly reify mark retired [ '/data/node_modules/node-red-node-sqlite' ]
+95 silly reify mark retired [ '/data/node_modules/nopt', '/data/node_modules/.bin/nopt' ]
+96 silly reify mark retired [ '/data/node_modules/npmlog' ]
+97 silly reify mark retired [ '/data/node_modules/once' ]
+98 silly reify mark retired [ '/data/node_modules/p-map' ]
+99 silly reify mark retired [ '/data/node_modules/path-is-absolute' ]
+100 silly reify mark retired [
+100 silly reify   '/data/node_modules/prebuild-install',
+100 silly reify   '/data/node_modules/.bin/prebuild-install'
+100 silly reify ]
+101 silly reify mark retired [ '/data/node_modules/promise-inflight' ]
+102 silly reify mark retired [ '/data/node_modules/promise-retry' ]
+103 silly reify mark retired [ '/data/node_modules/pump' ]
+104 silly reify mark retired [ '/data/node_modules/rc', '/data/node_modules/.bin/rc' ]
+105 silly reify mark retired [ '/data/node_modules/readable-stream' ]
+106 silly reify mark retired [ '/data/node_modules/retry' ]
+107 silly reify mark retired [ '/data/node_modules/rimraf', '/data/node_modules/.bin/rimraf' ]
+108 silly reify mark retired [ '/data/node_modules/safe-buffer' ]
+109 silly reify mark retired [ '/data/node_modules/safer-buffer' ]
+110 silly reify mark retired [ '/data/node_modules/semver', '/data/node_modules/.bin/semver' ]
+111 silly reify mark retired [ '/data/node_modules/set-blocking' ]
+112 silly reify mark retired [ '/data/node_modules/signal-exit' ]
+113 silly reify mark retired [ '/data/node_modules/simple-concat' ]
+114 silly reify mark retired [ '/data/node_modules/simple-get' ]
+115 silly reify mark retired [ '/data/node_modules/smart-buffer' ]
+116 silly reify mark retired [ '/data/node_modules/socks' ]
+117 silly reify mark retired [ '/data/node_modules/socks-proxy-agent' ]
+118 silly reify mark retired [ '/data/node_modules/sprintf-js' ]
+119 silly reify mark retired [ '/data/node_modules/sqlite3' ]
+120 silly reify mark retired [ '/data/node_modules/ssri' ]
+121 silly reify mark retired [ '/data/node_modules/string_decoder' ]
+122 silly reify mark retired [ '/data/node_modules/string-width' ]
+123 silly reify mark retired [ '/data/node_modules/strip-ansi' ]
+124 silly reify mark retired [ '/data/node_modules/strip-json-comments' ]
+125 silly reify mark retired [ '/data/node_modules/tar' ]
+126 silly reify mark retired [ '/data/node_modules/tar-fs' ]
+127 silly reify mark retired [ '/data/node_modules/tar-stream' ]
+128 silly reify mark retired [ '/data/node_modules/tunnel-agent' ]
+129 silly reify mark retired [ '/data/node_modules/unique-filename' ]
+130 silly reify mark retired [ '/data/node_modules/unique-slug' ]
+131 silly reify mark retired [ '/data/node_modules/util-deprecate' ]
+132 silly reify mark retired [ '/data/node_modules/which', '/data/node_modules/.bin/node-which' ]
+133 silly reify mark retired [ '/data/node_modules/wide-align' ]
+134 silly reify mark retired [ '/data/node_modules/wrappy' ]
+135 silly reify mark retired [ '/data/node_modules/yallist' ]
+136 silly reify moves {
+136 silly reify   '/data/node_modules/@gar/promisify': '/data/node_modules/@gar/.promisify-EuHE6dM6',
+136 silly reify   '/data/node_modules/@npmcli/fs': '/data/node_modules/@npmcli/.fs-oay8m7I0',
+136 silly reify   '/data/node_modules/@npmcli/move-file': '/data/node_modules/@npmcli/.move-file-ZtYesWON',
+136 silly reify   '/data/node_modules/@tootallnate/once': '/data/node_modules/@tootallnate/.once-ehb9YMf6',
+136 silly reify   '/data/node_modules/abbrev': '/data/node_modules/.abbrev-lw8Uxh8e',
+136 silly reify   '/data/node_modules/agent-base': '/data/node_modules/.agent-base-YVqTSI8f',
+136 silly reify   '/data/node_modules/agentkeepalive': '/data/node_modules/.agentkeepalive-kugE1PNf',
+136 silly reify   '/data/node_modules/aggregate-error': '/data/node_modules/.aggregate-error-jSS0MJUi',
+136 silly reify   '/data/node_modules/ansi-regex': '/data/node_modules/.ansi-regex-UnXQL7ut',
+136 silly reify   '/data/node_modules/aproba': '/data/node_modules/.aproba-CckTnPjK',
+136 silly reify   '/data/node_modules/are-we-there-yet': '/data/node_modules/.are-we-there-yet-TDjeH5Z7',
+136 silly reify   '/data/node_modules/balanced-match': '/data/node_modules/.balanced-match-cZVSkmYR',
+136 silly reify   '/data/node_modules/base64-js': '/data/node_modules/.base64-js-fM7Z0tn1',
+136 silly reify   '/data/node_modules/bindings': '/data/node_modules/.bindings-Lgumy7Yr',
+136 silly reify   '/data/node_modules/bl': '/data/node_modules/.bl-PfU8Qu11',
+136 silly reify   '/data/node_modules/brace-expansion': '/data/node_modules/.brace-expansion-yRGPppFz',
+136 silly reify   '/data/node_modules/buffer': '/data/node_modules/.buffer-PnI8qWnd',
+136 silly reify   '/data/node_modules/cacache': '/data/node_modules/.cacache-SQdQI5bK',
+136 silly reify   '/data/node_modules/chownr': '/data/node_modules/.chownr-07v3qbUi',
+136 silly reify   '/data/node_modules/clean-stack': '/data/node_modules/.clean-stack-YDfSasw5',
+136 silly reify   '/data/node_modules/color-support': '/data/node_modules/.color-support-KE9n8sKl',
+136 silly reify   '/data/node_modules/.bin/color-support': '/data/node_modules/.bin/.color-support-9HI2Y1W2',
+136 silly reify   '/data/node_modules/concat-map': '/data/node_modules/.concat-map-gcGcnca7',
+136 silly reify   '/data/node_modules/console-control-strings': '/data/node_modules/.console-control-strings-mTLyQTQn',
+136 silly reify   '/data/node_modules/debug': '/data/node_modules/.debug-oMLg6EQG',
+136 silly reify   '/data/node_modules/decompress-response': '/data/node_modules/.decompress-response-DOEkGFmN',
+136 silly reify   '/data/node_modules/deep-extend': '/data/node_modules/.deep-extend-uxScoZKJ',
+136 silly reify   '/data/node_modules/delegates': '/data/node_modules/.delegates-RnaTEBph',
+136 silly reify   '/data/node_modules/detect-libc': '/data/node_modules/.detect-libc-TCSFCEdZ',
+136 silly reify   '/data/node_modules/emoji-regex': '/data/node_modules/.emoji-regex-3DE4Hvsb',
+136 silly reify   '/data/node_modules/encoding': '/data/node_modules/.encoding-DwClBryH',
+136 silly reify   '/data/node_modules/end-of-stream': '/data/node_modules/.end-of-stream-D9qGZpUB',
+136 silly reify   '/data/node_modules/env-paths': '/data/node_modules/.env-paths-7E7lcLmj',
+136 silly reify   '/data/node_modules/err-code': '/data/node_modules/.err-code-8jQzHWT0',
+136 silly reify   '/data/node_modules/expand-template': '/data/node_modules/.expand-template-1e7LrLHz',
+136 silly reify   '/data/node_modules/file-uri-to-path': '/data/node_modules/.file-uri-to-path-ycVlx797',
+136 silly reify   '/data/node_modules/fs-constants': '/data/node_modules/.fs-constants-IkU1lCys',
+136 silly reify   '/data/node_modules/fs-minipass': '/data/node_modules/.fs-minipass-yjOoH6Uz',
+136 silly reify   '/data/node_modules/fs.realpath': '/data/node_modules/.fs.realpath-fYeO8RDC',
+136 silly reify   '/data/node_modules/gauge': '/data/node_modules/.gauge-rdcHSHqa',
+136 silly reify   '/data/node_modules/github-from-package': '/data/node_modules/.github-from-package-RR3xuvXb',
+136 silly reify   '/data/node_modules/glob': '/data/node_modules/.glob-noheLqQM',
+136 silly reify   '/data/node_modules/graceful-fs': '/data/node_modules/.graceful-fs-k0znLUlP',
+136 silly reify   '/data/node_modules/has-unicode': '/data/node_modules/.has-unicode-UrSlttIr',
+136 silly reify   '/data/node_modules/http-cache-semantics': '/data/node_modules/.http-cache-semantics-sEu4cdoT',
+136 silly reify   '/data/node_modules/http-proxy-agent': '/data/node_modules/.http-proxy-agent-TD1ZYnma',
+136 silly reify   '/data/node_modules/https-proxy-agent': '/data/node_modules/.https-proxy-agent-BrVHzWxz',
+136 silly reify   '/data/node_modules/humanize-ms': '/data/node_modules/.humanize-ms-Hvr82jhc',
+136 silly reify   '/data/node_modules/iconv-lite': '/data/node_modules/.iconv-lite-MMpGM8zk',
+136 silly reify   '/data/node_modules/ieee754': '/data/node_modules/.ieee754-LaYQfJUx',
+136 silly reify   '/data/node_modules/imurmurhash': '/data/node_modules/.imurmurhash-HMCvaMMJ',
+136 silly reify   '/data/node_modules/indent-string': '/data/node_modules/.indent-string-6p3pgBkH',
+136 silly reify   '/data/node_modules/infer-owner': '/data/node_modules/.infer-owner-hMDiVwdA',
+136 silly reify   '/data/node_modules/inflight': '/data/node_modules/.inflight-e6IlchaA',
+136 silly reify   '/data/node_modules/inherits': '/data/node_modules/.inherits-IFktovJP',
+136 silly reify   '/data/node_modules/ini': '/data/node_modules/.ini-UvkOpiy4',
+136 silly reify   '/data/node_modules/ip-address': '/data/node_modules/.ip-address-W894yrwn',
+136 silly reify   '/data/node_modules/is-fullwidth-code-point': '/data/node_modules/.is-fullwidth-code-point-msBfcTjH',
+136 silly reify   '/data/node_modules/is-lambda': '/data/node_modules/.is-lambda-kMBLhgOj',
+136 silly reify   '/data/node_modules/isexe': '/data/node_modules/.isexe-NOQOJ7gz',
+136 silly reify   '/data/node_modules/jsbn': '/data/node_modules/.jsbn-SoBmc5PG',
+136 silly reify   '/data/node_modules/lru-cache': '/data/node_modules/.lru-cache-WRlPNktf',
+136 silly reify   '/data/node_modules/make-fetch-happen': '/data/node_modules/.make-fetch-happen-EOX09ePh',
+136 silly reify   '/data/node_modules/mimic-response': '/data/node_modules/.mimic-response-XbIS6igx',
+136 silly reify   '/data/node_modules/minimatch': '/data/node_modules/.minimatch-wsiH5s8b',
+136 silly reify   '/data/node_modules/minimist': '/data/node_modules/.minimist-DTtF8i0S',
+136 silly reify   '/data/node_modules/minipass': '/data/node_modules/.minipass-FwuRyaDr',
+136 silly reify   '/data/node_modules/minipass-collect': '/data/node_modules/.minipass-collect-rJ1sNdKl',
+136 silly reify   '/data/node_modules/minipass-fetch': '/data/node_modules/.minipass-fetch-T4osKW5F',
+136 silly reify   '/data/node_modules/minipass-flush': '/data/node_modules/.minipass-flush-VbYr7BoT',
+136 silly reify   '/data/node_modules/minipass-pipeline': '/data/node_modules/.minipass-pipeline-ltY8OjcJ',
+136 silly reify   '/data/node_modules/minipass-sized': '/data/node_modules/.minipass-sized-TFbwMyi9',
+136 silly reify   '/data/node_modules/minizlib': '/data/node_modules/.minizlib-TP11BXom',
+136 silly reify   '/data/node_modules/mkdirp': '/data/node_modules/.mkdirp-kfx2waep',
+136 silly reify   '/data/node_modules/.bin/mkdirp': '/data/node_modules/.bin/.mkdirp-VJGUnSum',
+136 silly reify   '/data/node_modules/mkdirp-classic': '/data/node_modules/.mkdirp-classic-m5g6EfUU',
+136 silly reify   '/data/node_modules/ms': '/data/node_modules/.ms-g1irmAFT',
+136 silly reify   '/data/node_modules/napi-build-utils': '/data/node_modules/.napi-build-utils-aGphD8oI',
+136 silly reify   '/data/node_modules/negotiator': '/data/node_modules/.negotiator-k7G8Mi8G',
+136 silly reify   '/data/node_modules/node-abi': '/data/node_modules/.node-abi-Hy2qtsKY',
+136 silly reify   '/data/node_modules/node-addon-api': '/data/node_modules/.node-addon-api-20WGxncL',
+136 silly reify   '/data/node_modules/node-gyp': '/data/node_modules/.node-gyp-EojeHlmv',
+136 silly reify   '/data/node_modules/.bin/node-gyp': '/data/node_modules/.bin/.node-gyp-OxPhczpX',
+136 silly reify   '/data/node_modules/node-red-node-sqlite': '/data/node_modules/.node-red-node-sqlite-AXc6FkYk',
+136 silly reify   '/data/node_modules/nopt': '/data/node_modules/.nopt-qTKdRUTV',
+136 silly reify   '/data/node_modules/.bin/nopt': '/data/node_modules/.bin/.nopt-2Ykus5X1',
+136 silly reify   '/data/node_modules/npmlog': '/data/node_modules/.npmlog-QQlacbbd',
+136 silly reify   '/data/node_modules/once': '/data/node_modules/.once-g0JU53BL',
+136 silly reify   '/data/node_modules/p-map': '/data/node_modules/.p-map-fd5N6W9q',
+136 silly reify   '/data/node_modules/path-is-absolute': '/data/node_modules/.path-is-absolute-cyyoeMcn',
+136 silly reify   '/data/node_modules/prebuild-install': '/data/node_modules/.prebuild-install-rjYZR3eT',
+136 silly reify   '/data/node_modules/.bin/prebuild-install': '/data/node_modules/.bin/.prebuild-install-PoJBSPIe',
+136 silly reify   '/data/node_modules/promise-inflight': '/data/node_modules/.promise-inflight-lDUM5f0K',
+136 silly reify   '/data/node_modules/promise-retry': '/data/node_modules/.promise-retry-uzLSl34W',
+136 silly reify   '/data/node_modules/pump': '/data/node_modules/.pump-DsFDRkp1',
+136 silly reify   '/data/node_modules/rc': '/data/node_modules/.rc-SIB9DdWk',
+136 silly reify   '/data/node_modules/.bin/rc': '/data/node_modules/.bin/.rc-7WFnPFLE',
+136 silly reify   '/data/node_modules/readable-stream': '/data/node_modules/.readable-stream-VXKeHCl7',
+136 silly reify   '/data/node_modules/retry': '/data/node_modules/.retry-KnV1EhyG',
+136 silly reify   '/data/node_modules/rimraf': '/data/node_modules/.rimraf-PPixYEus',
+136 silly reify   '/data/node_modules/.bin/rimraf': '/data/node_modules/.bin/.rimraf-ibgV2mde',
+136 silly reify   '/data/node_modules/safe-buffer': '/data/node_modules/.safe-buffer-RhdIW9jy',
+136 silly reify   '/data/node_modules/safer-buffer': '/data/node_modules/.safer-buffer-aAdgwKtH',
+136 silly reify   '/data/node_modules/semver': '/data/node_modules/.semver-yb9qAHPh',
+136 silly reify   '/data/node_modules/.bin/semver': '/data/node_modules/.bin/.semver-A9Nz3QEQ',
+136 silly reify   '/data/node_modules/set-blocking': '/data/node_modules/.set-blocking-3DQ83A8A',
+136 silly reify   '/data/node_modules/signal-exit': '/data/node_modules/.signal-exit-q00PViss',
+136 silly reify   '/data/node_modules/simple-concat': '/data/node_modules/.simple-concat-e1f3Ym2T',
+136 silly reify   '/data/node_modules/simple-get': '/data/node_modules/.simple-get-wdpKPzfE',
+136 silly reify   '/data/node_modules/smart-buffer': '/data/node_modules/.smart-buffer-EWy5WmvE',
+136 silly reify   '/data/node_modules/socks': '/data/node_modules/.socks-9ShnZhLT',
+136 silly reify   '/data/node_modules/socks-proxy-agent': '/data/node_modules/.socks-proxy-agent-cMunNzIP',
+136 silly reify   '/data/node_modules/sprintf-js': '/data/node_modules/.sprintf-js-ksAK5DwP',
+136 silly reify   '/data/node_modules/sqlite3': '/data/node_modules/.sqlite3-mwTJdy6J',
+136 silly reify   '/data/node_modules/ssri': '/data/node_modules/.ssri-Q0Y3VgYy',
+136 silly reify   '/data/node_modules/string_decoder': '/data/node_modules/.string_decoder-3xV3GvlK',
+136 silly reify   '/data/node_modules/string-width': '/data/node_modules/.string-width-0WgxdXS3',
+136 silly reify   '/data/node_modules/strip-ansi': '/data/node_modules/.strip-ansi-zyOGG1f9',
+136 silly reify   '/data/node_modules/strip-json-comments': '/data/node_modules/.strip-json-comments-pRohYJIX',
+136 silly reify   '/data/node_modules/tar': '/data/node_modules/.tar-JvtJ6GT7',
+136 silly reify   '/data/node_modules/tar-fs': '/data/node_modules/.tar-fs-nqK4gnA6',
+136 silly reify   '/data/node_modules/tar-stream': '/data/node_modules/.tar-stream-BbZjKMWW',
+136 silly reify   '/data/node_modules/tunnel-agent': '/data/node_modules/.tunnel-agent-o9qAJAS3',
+136 silly reify   '/data/node_modules/unique-filename': '/data/node_modules/.unique-filename-yZxoyoC5',
+136 silly reify   '/data/node_modules/unique-slug': '/data/node_modules/.unique-slug-4FCyE7WM',
+136 silly reify   '/data/node_modules/util-deprecate': '/data/node_modules/.util-deprecate-vvLRni8j',
+136 silly reify   '/data/node_modules/which': '/data/node_modules/.which-Lz0r2DS2',
+136 silly reify   '/data/node_modules/.bin/node-which': '/data/node_modules/.bin/.node-which-EiXBkQzO',
+136 silly reify   '/data/node_modules/wide-align': '/data/node_modules/.wide-align-mvWYzJRH',
+136 silly reify   '/data/node_modules/wrappy': '/data/node_modules/.wrappy-aIryM6Ly',
+136 silly reify   '/data/node_modules/yallist': '/data/node_modules/.yallist-nRCT2Oqy'
+136 silly reify }
+137 verbose stack Error: EACCES: permission denied, rename '/data/node_modules/sqlite3' -> '/data/node_modules/.sqlite3-mwTJdy6J'
+137 verbose stack     at async Object.rename (node:internal/fs/promises:782:10)
+137 verbose stack     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+137 verbose stack     at async Promise.allSettled (index 113)
+137 verbose stack     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+137 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+137 verbose stack     at async Uninstall.exec (/usr/local/lib/node_modules/npm/lib/commands/uninstall.js:51:5)
+137 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+138 verbose cwd /data
+139 verbose Linux 5.15.153.1-microsoft-standard-WSL2
+140 verbose node v20.15.1
+141 verbose npm  v10.7.0
+142 error code EACCES
+143 error syscall rename
+144 error path /data/node_modules/sqlite3
+145 error dest /data/node_modules/.sqlite3-mwTJdy6J
+146 error errno -13
+147 error Error: EACCES: permission denied, rename '/data/node_modules/sqlite3' -> '/data/node_modules/.sqlite3-mwTJdy6J'
+147 error     at async Object.rename (node:internal/fs/promises:782:10)
+147 error     at async moveFile (/usr/local/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+147 error     at async Promise.allSettled (index 113)
+147 error     at async [reifyPackages] (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+147 error     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+147 error     at async Uninstall.exec (/usr/local/lib/node_modules/npm/lib/commands/uninstall.js:51:5)
+147 error     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+147 error   errno: -13,
+147 error   code: 'EACCES',
+147 error   syscall: 'rename',
+147 error   path: '/data/node_modules/sqlite3',
+147 error   dest: '/data/node_modules/.sqlite3-mwTJdy6J'
+147 error }
+148 error
+148 error The operation was rejected by your operating system.
+148 error It is likely you do not have the permissions to access this file as the current user
+148 error
+148 error If you believe this might be a permissions issue, please double-check the
+148 error permissions of the file and its containing directories, or try running
+148 error the command again as root/Administrator.
+149 verbose exit -13
+150 verbose code -13
+151 silly unfinished npm timer reify 1721116571579
+152 silly unfinished npm timer reify:retireShallow 1721116571770
+153 error A complete log of this run can be found in: /data/.npm/_logs/2024-07-16T07_56_11_223Z-debug-0.log

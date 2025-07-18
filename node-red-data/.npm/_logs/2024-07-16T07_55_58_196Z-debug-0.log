@@ -1,0 +1,45 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-contrib-mongo-client
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-contrib-mongo-client"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_55_58_196Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_55_58_196Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [ '/data/node_modules/denque' ]
+14 silly reify mark retired [ '/data/node_modules/memory-pager' ]
+15 silly reify mark retired [ '/data/node_modules/node-red-contrib-mongo-client' ]
+16 silly reify mark retired [ '/data/node_modules/optional-require' ]
+17 silly reify mark retired [ '/data/node_modules/require-at' ]
+18 silly reify mark retired [ '/data/node_modules/saslprep' ]
+19 silly reify mark retired [ '/data/node_modules/sparse-bitfield' ]
+20 silly reify moves {
+20 silly reify   '/data/node_modules/denque': '/data/node_modules/.denque-NvQCv7Lr',
+20 silly reify   '/data/node_modules/memory-pager': '/data/node_modules/.memory-pager-ySLGI9YD',
+20 silly reify   '/data/node_modules/node-red-contrib-mongo-client': '/data/node_modules/.node-red-contrib-mongo-client-WQrMUkTr',
+20 silly reify   '/data/node_modules/optional-require': '/data/node_modules/.optional-require-XTsQFWa6',
+20 silly reify   '/data/node_modules/require-at': '/data/node_modules/.require-at-ooFxVcMQ',
+20 silly reify   '/data/node_modules/saslprep': '/data/node_modules/.saslprep-GqvGBaXq',
+20 silly reify   '/data/node_modules/sparse-bitfield': '/data/node_modules/.sparse-bitfield-86rS1a14'
+20 silly reify }
+21 silly REMOVE node_modules/sparse-bitfield
+22 silly REMOVE node_modules/saslprep
+23 silly REMOVE node_modules/require-at
+24 silly REMOVE node_modules/optional-require
+25 silly REMOVE node_modules/node-red-contrib-mongo-client
+26 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/string_decoder
+27 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/safe-buffer
+28 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/readable-stream
+29 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/process-nextick-args
+30 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/mongodb
+31 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/bson
+32 silly REMOVE node_modules/node-red-contrib-mongo-client/node_modules/bl
+33 silly REMOVE node_modules/memory-pager
+34 silly REMOVE node_modules/denque
+35 verbose exit 0
+36 info ok

@@ -1,0 +1,52 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-contrib-mongodb4
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-contrib-mongodb4"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_55_08_527Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_55_08_527Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [ '/data/node_modules/@mongodb-js/saslprep' ]
+14 silly reify mark retired [ '/data/node_modules/@types/node' ]
+15 silly reify mark retired [ '/data/node_modules/@types/webidl-conversions' ]
+16 silly reify mark retired [ '/data/node_modules/@types/whatwg-url' ]
+17 silly reify mark retired [ '/data/node_modules/mongodb-connection-string-url' ]
+18 silly reify mark retired [ '/data/node_modules/node-red-contrib-mongodb4' ]
+19 silly reify mark retired [ '/data/node_modules/punycode' ]
+20 silly reify mark retired [ '/data/node_modules/tr46' ]
+21 silly reify mark retired [ '/data/node_modules/undici-types' ]
+22 silly reify mark retired [ '/data/node_modules/webidl-conversions' ]
+23 silly reify mark retired [ '/data/node_modules/whatwg-url' ]
+24 silly reify moves {
+24 silly reify   '/data/node_modules/@mongodb-js/saslprep': '/data/node_modules/@mongodb-js/.saslprep-ikRW9kPs',
+24 silly reify   '/data/node_modules/@types/node': '/data/node_modules/@types/.node-hhfaj4BM',
+24 silly reify   '/data/node_modules/@types/webidl-conversions': '/data/node_modules/@types/.webidl-conversions-28iCKlUf',
+24 silly reify   '/data/node_modules/@types/whatwg-url': '/data/node_modules/@types/.whatwg-url-fg8I9aKJ',
+24 silly reify   '/data/node_modules/mongodb-connection-string-url': '/data/node_modules/.mongodb-connection-string-url-LvPyV1iY',
+24 silly reify   '/data/node_modules/node-red-contrib-mongodb4': '/data/node_modules/.node-red-contrib-mongodb4-6vRWiNwZ',
+24 silly reify   '/data/node_modules/punycode': '/data/node_modules/.punycode-gyQTLwWT',
+24 silly reify   '/data/node_modules/tr46': '/data/node_modules/.tr46-nC0Q94ES',
+24 silly reify   '/data/node_modules/undici-types': '/data/node_modules/.undici-types-N38lcTrn',
+24 silly reify   '/data/node_modules/webidl-conversions': '/data/node_modules/.webidl-conversions-NxZHehm0',
+24 silly reify   '/data/node_modules/whatwg-url': '/data/node_modules/.whatwg-url-rpY9wHDS'
+24 silly reify }
+25 silly REMOVE node_modules/whatwg-url
+26 silly REMOVE node_modules/webidl-conversions
+27 silly REMOVE node_modules/undici-types
+28 silly REMOVE node_modules/tr46
+29 silly REMOVE node_modules/punycode
+30 silly REMOVE node_modules/node-red-contrib-mongodb4
+31 silly REMOVE node_modules/node-red-contrib-mongodb4/node_modules/mongodb
+32 silly REMOVE node_modules/node-red-contrib-mongodb4/node_modules/bson
+33 silly REMOVE node_modules/mongodb-connection-string-url
+34 silly REMOVE node_modules/@types/whatwg-url
+35 silly REMOVE node_modules/@types/webidl-conversions
+36 silly REMOVE node_modules/@types/node
+37 silly REMOVE node_modules/@mongodb-js/saslprep
+38 verbose exit 0
+39 info ok

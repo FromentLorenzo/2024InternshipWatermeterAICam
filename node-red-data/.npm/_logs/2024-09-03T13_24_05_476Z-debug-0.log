@@ -1,0 +1,256 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/.npmrc
+5 silly config load:file:/usr/src/node-red/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install postgrestor@0.0.2
+8 verbose argv "install" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "--save-prefix" "~" "--omit" "dev" "--engine-strict" "postgrestor@0.0.2"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-09-03T13_24_05_476Z-
+10 verbose logfile /data/.npm/_logs/2024-09-03T13_24_05_476Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest postgrestor@0.0.2
+16 silly packumentCache full:https://registry.npmjs.org/postgrestor cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/postgrestor 845ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/postgrestor set size:6364 disposed:false
+19 silly placeDep ROOT postgrestor@0.0.2 OK for: node-red-project@0.0.1 want: 0.0.2
+20 silly fetch manifest co@^4.6.0
+21 silly packumentCache full:https://registry.npmjs.org/co cache-miss
+22 silly fetch manifest mustache@^2.3.0
+23 silly packumentCache full:https://registry.npmjs.org/mustache cache-miss
+24 silly fetch manifest pg@^6.1.5
+25 silly packumentCache full:https://registry.npmjs.org/pg cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/pg 170ms (cache revalidated)
+27 silly packumentCache full:https://registry.npmjs.org/pg set size:424203 disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/co 226ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/co set size:53621 disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/mustache 227ms (cache revalidated)
+31 silly packumentCache full:https://registry.npmjs.org/mustache set size:166974 disposed:false
+32 silly placeDep ROOT co@4.6.0 OK for: postgrestor@0.0.2 want: ^4.6.0
+33 silly placeDep node_modules/postgrestor mustache@2.3.2 OK for: postgrestor@0.0.2 want: ^2.3.0
+34 silly placeDep node_modules/postgrestor pg@6.4.2 OK for: postgrestor@0.0.2 want: ^6.1.5
+35 silly fetch manifest semver@4.3.2
+36 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+37 silly fetch manifest pg-pool@1.*
+38 silly packumentCache full:https://registry.npmjs.org/pg-pool cache-miss
+39 silly fetch manifest pg-types@1.*
+40 silly packumentCache full:https://registry.npmjs.org/pg-types cache-miss
+41 silly fetch manifest buffer-writer@1.0.1
+42 silly packumentCache full:https://registry.npmjs.org/buffer-writer cache-miss
+43 silly fetch manifest packet-reader@0.3.1
+44 silly packumentCache full:https://registry.npmjs.org/packet-reader cache-miss
+45 silly fetch manifest js-string-escape@1.0.1
+46 silly packumentCache full:https://registry.npmjs.org/js-string-escape cache-miss
+47 silly fetch manifest pg-connection-string@0.1.3
+48 silly packumentCache full:https://registry.npmjs.org/pg-connection-string cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/buffer-writer 188ms (cache revalidated)
+50 silly packumentCache full:https://registry.npmjs.org/buffer-writer set size:7699 disposed:false
+51 http fetch GET 200 https://registry.npmjs.org/pg-types 190ms (cache revalidated)
+52 silly packumentCache full:https://registry.npmjs.org/pg-types set size:49222 disposed:false
+53 http fetch GET 200 https://registry.npmjs.org/semver 205ms (cache updated)
+54 silly packumentCache full:https://registry.npmjs.org/semver set size:undefined disposed:false
+55 http fetch GET 200 https://registry.npmjs.org/packet-reader 236ms (cache revalidated)
+56 silly packumentCache full:https://registry.npmjs.org/packet-reader set size:13309 disposed:false
+57 http fetch GET 200 https://registry.npmjs.org/pg-pool 262ms (cache revalidated)
+58 silly packumentCache full:https://registry.npmjs.org/pg-pool set size:105246 disposed:false
+59 http fetch GET 200 https://registry.npmjs.org/pg-connection-string 264ms (cache revalidated)
+60 silly packumentCache full:https://registry.npmjs.org/pg-connection-string set size:45918 disposed:false
+61 http fetch GET 200 https://registry.npmjs.org/js-string-escape 270ms (cache revalidated)
+62 silly packumentCache full:https://registry.npmjs.org/js-string-escape set size:6318 disposed:false
+63 silly placeDep ROOT buffer-writer@1.0.1 OK for: pg@6.4.2 want: 1.0.1
+64 silly placeDep ROOT js-string-escape@1.0.1 OK for: pg@6.4.2 want: 1.0.1
+65 silly placeDep ROOT packet-reader@0.3.1 OK for: pg@6.4.2 want: 0.3.1
+66 silly placeDep node_modules/postgrestor pg-connection-string@0.1.3 OK for: pg@6.4.2 want: 0.1.3
+67 silly placeDep node_modules/postgrestor pg-pool@1.8.0 OK for: pg@6.4.2 want: 1.*
+68 silly placeDep node_modules/postgrestor pg-types@1.13.0 OK for: pg@6.4.2 want: 1.*
+69 silly placeDep node_modules/postgrestor semver@4.3.2 OK for: pg@6.4.2 want: 4.3.2
+70 silly fetch manifest generic-pool@2.4.3
+71 silly packumentCache full:https://registry.npmjs.org/generic-pool cache-miss
+72 silly fetch manifest object-assign@4.1.0
+73 silly packumentCache full:https://registry.npmjs.org/object-assign cache-miss
+74 silly fetch manifest postgres-array@~1.0.0
+75 silly packumentCache full:https://registry.npmjs.org/postgres-array cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/postgres-array 157ms (cache revalidated)
+77 silly packumentCache full:https://registry.npmjs.org/postgres-array set size:18773 disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/generic-pool 163ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/generic-pool set size:193866 disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/object-assign 167ms (cache revalidated)
+81 silly packumentCache full:https://registry.npmjs.org/object-assign set size:29002 disposed:false
+82 silly placeDep ROOT generic-pool@2.4.3 OK for: pg-pool@1.8.0 want: 2.4.3
+83 silly placeDep ROOT object-assign@4.1.0 OK for: pg-pool@1.8.0 want: 4.1.0
+84 silly placeDep node_modules/postgrestor postgres-array@1.0.3 OK for: pg-types@1.13.0 want: ~1.0.0
+85 silly reify moves {}
+86 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+87 warn deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+88 warn deprecated npmlog@6.0.2: This package is no longer supported.
+89 warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+90 warn deprecated are-we-there-yet@3.0.1: This package is no longer supported.
+91 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+92 warn deprecated gauge@4.0.4: This package is no longer supported.
+93 info run sqlite3@5.1.7 install node_modules/sqlite3 prebuild-install -r napi || node-gyp rebuild
+94 info run sqlite3@5.1.7 install { code: 0, signal: null }
+95 silly ADD node_modules/object-assign
+96 silly ADD node_modules/generic-pool
+97 silly ADD node_modules/packet-reader
+98 silly ADD node_modules/js-string-escape
+99 silly ADD node_modules/buffer-writer
+100 silly ADD node_modules/co
+101 silly ADD node_modules/postgrestor
+102 silly ADD node_modules/postgrestor/node_modules/postgres-array
+103 silly ADD node_modules/postgrestor/node_modules/semver
+104 silly ADD node_modules/postgrestor/node_modules/pg-types
+105 silly ADD node_modules/postgrestor/node_modules/pg-pool
+106 silly ADD node_modules/postgrestor/node_modules/pg-connection-string
+107 silly ADD node_modules/postgrestor/node_modules/pg
+108 silly ADD node_modules/postgrestor/node_modules/mustache
+109 silly ADD node_modules/yallist
+110 silly ADD node_modules/xtend
+111 silly ADD node_modules/wrappy
+112 silly ADD node_modules/wide-align
+113 silly ADD node_modules/which
+114 silly ADD node_modules/util-deprecate
+115 silly ADD node_modules/unique-slug
+116 silly ADD node_modules/unique-filename
+117 silly ADD node_modules/tunnel-agent
+118 silly ADD node_modules/tar-stream
+119 silly ADD node_modules/tar-fs
+120 silly ADD node_modules/tar-fs/node_modules/chownr
+121 silly ADD node_modules/tar
+122 silly ADD node_modules/tar/node_modules/minipass
+123 silly ADD node_modules/strip-json-comments
+124 silly ADD node_modules/strip-ansi
+125 silly ADD node_modules/string-width
+126 silly ADD node_modules/string_decoder
+127 silly ADD node_modules/ssri
+128 silly ADD node_modules/sqlite3
+129 silly ADD node_modules/sprintf-js
+130 silly ADD node_modules/split2
+131 silly ADD node_modules/socks-proxy-agent
+132 silly ADD node_modules/socks
+133 silly ADD node_modules/smart-buffer
+134 silly ADD node_modules/simple-get
+135 silly ADD node_modules/simple-concat
+136 silly ADD node_modules/signal-exit
+137 silly ADD node_modules/set-blocking
+138 silly ADD node_modules/semver
+139 silly ADD node_modules/safer-buffer
+140 silly ADD node_modules/safe-buffer
+141 silly ADD node_modules/rimraf
+142 silly ADD node_modules/retry
+143 silly ADD node_modules/readable-stream
+144 silly ADD node_modules/rc
+145 silly ADD node_modules/pump
+146 silly ADD node_modules/promise-retry
+147 silly ADD node_modules/promise-inflight
+148 silly ADD node_modules/prebuild-install
+149 silly ADD node_modules/postgres-interval
+150 silly ADD node_modules/postgres-date
+151 silly ADD node_modules/postgres-bytea
+152 silly ADD node_modules/postgres-array
+153 silly ADD node_modules/pgpass
+154 silly ADD node_modules/pg-types
+155 silly ADD node_modules/pg-protocol
+156 silly ADD node_modules/pg-pool
+157 silly ADD node_modules/pg-int8
+158 silly ADD node_modules/pg-cursor
+159 silly ADD node_modules/pg-connection-string
+160 silly ADD node_modules/pg-cloudflare
+161 silly ADD node_modules/pg
+162 silly ADD node_modules/path-is-absolute
+163 silly ADD node_modules/p-map
+164 silly ADD node_modules/once
+165 silly ADD node_modules/npmlog
+166 silly ADD node_modules/nopt
+167 silly ADD node_modules/node-red-node-sqlite
+168 silly ADD node_modules/node-red-contrib-postgresql
+169 silly ADD node_modules/node-gyp
+170 silly ADD node_modules/node-addon-api
+171 silly ADD node_modules/node-abi
+172 silly ADD node_modules/negotiator
+173 silly ADD node_modules/napi-build-utils
+174 silly ADD node_modules/mustache
+175 silly ADD node_modules/ms
+176 silly ADD node_modules/mkdirp-classic
+177 silly ADD node_modules/mkdirp
+178 silly ADD node_modules/minizlib
+179 silly ADD node_modules/minipass-sized
+180 silly ADD node_modules/minipass-pipeline
+181 silly ADD node_modules/minipass-flush
+182 silly ADD node_modules/minipass-fetch
+183 silly ADD node_modules/minipass-collect
+184 silly ADD node_modules/minipass
+185 silly ADD node_modules/minimist
+186 silly ADD node_modules/minimatch
+187 silly ADD node_modules/mimic-response
+188 silly ADD node_modules/make-fetch-happen
+189 silly ADD node_modules/lru-cache
+190 silly ADD node_modules/jsbn
+191 silly ADD node_modules/isexe
+192 silly ADD node_modules/is-lambda
+193 silly ADD node_modules/is-fullwidth-code-point
+194 silly ADD node_modules/ip-address
+195 silly ADD node_modules/ini
+196 silly ADD node_modules/inherits
+197 silly ADD node_modules/inflight
+198 silly ADD node_modules/infer-owner
+199 silly ADD node_modules/indent-string
+200 silly ADD node_modules/imurmurhash
+201 silly ADD node_modules/ieee754
+202 silly ADD node_modules/iconv-lite
+203 silly ADD node_modules/humanize-ms
+204 silly ADD node_modules/https-proxy-agent
+205 silly ADD node_modules/http-proxy-agent
+206 silly ADD node_modules/http-cache-semantics
+207 silly ADD node_modules/has-unicode
+208 silly ADD node_modules/graceful-fs
+209 silly ADD node_modules/glob
+210 silly ADD node_modules/github-from-package
+211 silly ADD node_modules/gauge
+212 silly ADD node_modules/fs.realpath
+213 silly ADD node_modules/fs-minipass
+214 silly ADD node_modules/fs-constants
+215 silly ADD node_modules/file-uri-to-path
+216 silly ADD node_modules/expand-template
+217 silly ADD node_modules/err-code
+218 silly ADD node_modules/env-paths
+219 silly ADD node_modules/end-of-stream
+220 silly ADD node_modules/encoding
+221 silly ADD node_modules/emoji-regex
+222 silly ADD node_modules/detect-libc
+223 silly ADD node_modules/delegates
+224 silly ADD node_modules/deep-extend
+225 silly ADD node_modules/decompress-response
+226 silly ADD node_modules/debug
+227 silly ADD node_modules/console-control-strings
+228 silly ADD node_modules/concat-map
+229 silly ADD node_modules/color-support
+230 silly ADD node_modules/clean-stack
+231 silly ADD node_modules/chownr
+232 silly ADD node_modules/cacache
+233 silly ADD node_modules/buffer
+234 silly ADD node_modules/brace-expansion
+235 silly ADD node_modules/bl
+236 silly ADD node_modules/bindings
+237 silly ADD node_modules/base64-js
+238 silly ADD node_modules/balanced-match
+239 silly ADD node_modules/are-we-there-yet
+240 silly ADD node_modules/aproba
+241 silly ADD node_modules/ansi-regex
+242 silly ADD node_modules/aggregate-error
+243 silly ADD node_modules/agentkeepalive
+244 silly ADD node_modules/agent-base
+245 silly ADD node_modules/abbrev
+246 silly ADD node_modules/@tootallnate/once
+247 silly ADD node_modules/@npmcli/move-file
+248 silly ADD node_modules/@npmcli/fs
+249 silly ADD node_modules/@gar/promisify
+250 verbose cwd /data
+251 verbose os Linux 5.15.153.1-microsoft-standard-WSL2
+252 verbose node v20.16.0
+253 verbose npm  v10.8.1
+254 verbose exit 0
+255 info ok

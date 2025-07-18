@@ -1,0 +1,63 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v20.15.1
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/data/.npmrc
+5 silly config:load:file:/usr/src/node-red/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm remove node-red-contrib-postgres-multi
+8 verbose argv "remove" "--no-audit" "--no-update-notifier" "--no-fund" "--save" "node-red-contrib-postgres-multi"
+9 verbose logfile logs-max:10 dir:/data/.npm/_logs/2024-07-16T07_56_02_513Z-
+10 verbose logfile /data/.npm/_logs/2024-07-16T07_56_02_513Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [ '/data/node_modules/buffer-writer' ]
+14 silly reify mark retired [ '/data/node_modules/lodash' ]
+15 silly reify mark retired [ '/data/node_modules/node-postgres-named' ]
+16 silly reify mark retired [ '/data/node_modules/node-red-contrib-postgres-multi' ]
+17 silly reify mark retired [ '/data/node_modules/packet-reader' ]
+18 silly reify mark retired [ '/data/node_modules/pg-connection-string' ]
+19 silly reify mark retired [ '/data/node_modules/pgpass' ]
+20 silly reify mark retired [ '/data/node_modules/postgres-array' ]
+21 silly reify mark retired [ '/data/node_modules/postgres-bytea' ]
+22 silly reify mark retired [ '/data/node_modules/postgres-date' ]
+23 silly reify mark retired [ '/data/node_modules/postgres-interval' ]
+24 silly reify mark retired [ '/data/node_modules/querystring' ]
+25 silly reify mark retired [ '/data/node_modules/split2' ]
+26 silly reify mark retired [ '/data/node_modules/xtend' ]
+27 silly reify moves {
+27 silly reify   '/data/node_modules/buffer-writer': '/data/node_modules/.buffer-writer-tX8QKNcw',
+27 silly reify   '/data/node_modules/lodash': '/data/node_modules/.lodash-RwIfwiNE',
+27 silly reify   '/data/node_modules/node-postgres-named': '/data/node_modules/.node-postgres-named-jMeK7g6I',
+27 silly reify   '/data/node_modules/node-red-contrib-postgres-multi': '/data/node_modules/.node-red-contrib-postgres-multi-LU1FSXCB',
+27 silly reify   '/data/node_modules/packet-reader': '/data/node_modules/.packet-reader-FVMXNMMd',
+27 silly reify   '/data/node_modules/pg-connection-string': '/data/node_modules/.pg-connection-string-cJ1nl38n',
+27 silly reify   '/data/node_modules/pgpass': '/data/node_modules/.pgpass-vCRx4PLW',
+27 silly reify   '/data/node_modules/postgres-array': '/data/node_modules/.postgres-array-9j3wHI49',
+27 silly reify   '/data/node_modules/postgres-bytea': '/data/node_modules/.postgres-bytea-7ONO4ad6',
+27 silly reify   '/data/node_modules/postgres-date': '/data/node_modules/.postgres-date-0N9kjo1a',
+27 silly reify   '/data/node_modules/postgres-interval': '/data/node_modules/.postgres-interval-bCQFrdgU',
+27 silly reify   '/data/node_modules/querystring': '/data/node_modules/.querystring-E9vW47eE',
+27 silly reify   '/data/node_modules/split2': '/data/node_modules/.split2-YyIajAst',
+27 silly reify   '/data/node_modules/xtend': '/data/node_modules/.xtend-RyJXfljO'
+27 silly reify }
+28 silly REMOVE node_modules/xtend
+29 silly REMOVE node_modules/split2
+30 silly REMOVE node_modules/querystring
+31 silly REMOVE node_modules/postgres-interval
+32 silly REMOVE node_modules/postgres-date
+33 silly REMOVE node_modules/postgres-bytea
+34 silly REMOVE node_modules/postgres-array
+35 silly REMOVE node_modules/pgpass
+36 silly REMOVE node_modules/pg-connection-string
+37 silly REMOVE node_modules/packet-reader
+38 silly REMOVE node_modules/node-red-contrib-postgres-multi
+39 silly REMOVE node_modules/node-red-contrib-postgres-multi/node_modules/semver
+40 silly REMOVE node_modules/node-red-contrib-postgres-multi/node_modules/pg-types
+41 silly REMOVE node_modules/node-red-contrib-postgres-multi/node_modules/pg-pool
+42 silly REMOVE node_modules/node-red-contrib-postgres-multi/node_modules/pg
+43 silly REMOVE node_modules/node-postgres-named
+44 silly REMOVE node_modules/lodash
+45 silly REMOVE node_modules/buffer-writer
+46 verbose exit 0
+47 info ok
